@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.s20212.exercicios.tutorialOO.TaisBruno;
+package uff.ic.lleme.tcc00328.s20212.exercicio.tutorialOO.TaisBruno;
 import java.io.File;
 import java.util.Scanner;
 import java.util.Arrays;

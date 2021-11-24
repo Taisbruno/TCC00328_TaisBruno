@@ -1,24 +1,30 @@
 package uff.ic.lleme.tcc00328.s20212.exercicio.tutorialOO.TaisBruno;
 import java.io.File;
 import java.util.Scanner;
-import java.util.Arrays;
 
 public final class SistemaAcademico {
-        public Integer[] add(Integer[] srcArray, int elementToAdd) {
-        Integer[] destArray = new Integer[srcArray.length+1];
-        for(int i = 0; i < srcArray.length; i++) {
-        destArray[i] = srcArray[i];
-    }
-
-    destArray[destArray.length - 1] = elementToAdd;
-    return destArray;
-}
-          static void carregarAlunos(String nomeArquivo) {
-            File myObj = new File("arquivo.txt");
-
+    static Aluno[] alunos = new Aluno[1];
+    static Disciplina[] disciplinas = new Disciplina[1];
+    static Inscricao[] inscricoes = new Inscricao[1];
+    
+    static void carregarAlunos(String nomeArquivo) {
+        File myAlunos = new File(nomeArquivo);
    }
-          public static void main(String[] args) {
+    static void carregarDisciplinas (String nomeArquivo) {
+        File arquivo_disciplinas = new File(nomeArquivo);
+    }
+    
+    static void carregarInscricoes (String nomeArquivo) {
+        File arquivo_inscricoes = new File(nomeArquivo);
+    }
+    
+    static void informarNotasDeAlunos (String nomeArquivo) {
+        File arquivo_inscricoes = new File(nomeArquivo);
+    }
+        
+    public static void main(String[] args) {
               carregarAlunos("arquivo.txt");
+              carregarDisciplinas("arquivo.txt");
               Aluno aluno1 = new Aluno();
               Aluno aluno2 = new Aluno();
               Aluno aluno3 = new Aluno();

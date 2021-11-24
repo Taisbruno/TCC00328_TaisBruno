@@ -5,7 +5,7 @@ public class Partida {
     private int i = 0;
     
     public void add(Jogador jogador) {
-        jogadores{i++] = jogador;
+        jogadores[i++] = jogador;
     }
         
     public void start() {

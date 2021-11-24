@@ -1,0 +1,25 @@
+3
+pizza 1
+cerveja 1
+agua 2
+4
+frango-grelhado 1
+churrasco-misto 1
+refrigerante 1
+cerveja 1
+5
+strogonoff 2
+contrafile-com-frita 1
+ipa-gelada 2
+agua 1
+refrigerante 1
+3
+ipa-gelada 1
+contrafile-com-frita 1
+strogonoff 1
+5
+frango-grelhado 1
+churrasco-misto 1
+pizza 1
+ipa-gelada 2
+refrigerante 2

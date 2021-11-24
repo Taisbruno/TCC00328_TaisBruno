@@ -13,7 +13,7 @@ public class Aplicacao {
         
         Dado[] dados = new Dado[2];
         dados[0] = new Dado();
-        partida.start(dados);
+        partida.start();
             
     }
 }

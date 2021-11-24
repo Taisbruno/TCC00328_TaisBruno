@@ -6,8 +6,4 @@ frango-grelhado 13.00
 ipa-gelada 8.00
 cerveja 4.00
 agua 3.00
-refrigerante 5.00hado 13.00
-ipa-gelada 8.00
-cerveja 4.00
-agua 3.00
 refrigerante 5.00
